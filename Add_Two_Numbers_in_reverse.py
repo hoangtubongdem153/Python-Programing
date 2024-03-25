@@ -10,6 +10,11 @@
 #1.Tạo các list[] từ Link-list , chuyển thành số sau khi đảo ngược, cộng tổng rồi chuyển lại thành dãy list và tạo listnode từ dãy đó -> output listnode 
 #2.Cộng ngược từng phần tử trong dãy có nhớ từ trái qua phải listnode rồi thêm vào listnode mới 
 
+# Note: các cách đảo ngược chuỗi (string) trong python: 
+# String_ = "Tung"
+# 1. Slicing: String_ = String_[::-1]    [start:end:step]
+# 2. John() and reversed() function: String_ = "".join(reversed(string))
+
 # định nghĩa một listnode
 class ListNode(object):
     def __init__(self, val=0, next=None):
